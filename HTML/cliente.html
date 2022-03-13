@@ -72,10 +72,48 @@
     
 
 </ul>
-<br><br>
+<br><br><hr>
+<h3>Realiza tu pedido</h3>
 <form action="pedido.js">
     <label for="Nombre">Dame tu nombre:</label>
-    <input type="number" name="Nombre" id="Nombre" placeholder="Nombre">
+    <input type="text" name="nombre" id="Nombre" placeholder="Nombre"><br> <br>
+    <label for="Email"> Dame tu email</label>
+   <input type="email" name="email" id="Email" placeholder=" Email"><br> <br>
+   <label for="Telefono"> 
+     <span>Dame tu telefono</span>  
+     <input type="tel" name="telefono" id="Telefono" placeholder="telefono">
+   </label><br> <br>
+   <label for="Descripcion">
+       <span>Cosas extra para el pedido</span>
+       <textarea name="descripcion" id="Descripcion" cols="20" rows="10"></textarea>
+   </label><br> <br>
+   <h4>Elige el sabor</h4>
+   <input type="checkbox" id="topping1" name="topping1" value="Intergalactic">
+   <label for="topping1">Intergalactic</label><br>
+   <input type="checkbox" id="topping2" name="topping2" value="Popogalactic">
+   <label for="topping2">Popogalactic</label><br>
+   <input type="checkbox" id="topping3" name="topping3" value="Atlixgalactic">
+   <label for="topping3">Atlixgalactic</label><br>
+   <input type="checkbox" id="topping4" name="topping4" value="NaranjaAsteroide">
+   <label for="topping4">NaranjaAsteroide</label><br>
+   <input type="checkbox" id="topping5" name="topping5" value="ChantiVenus">
+   <label for="topping5">ChantiVenus</label><br>
+   <input type="checkbox" name="topping6" id="topping6" value="OreoLunar">
+   <label for="topping6">OreoLunar</label><br>
+   <br>
+   <h4>Puedes elegir los paquetes ya destinados</h4>
+   
+    <input type="radio" id="pVueles" name="paquetes" value="pVueles">
+    <label for="pVueles">PaqueteVueles</label><br>
+    <input type="radio" id="pVenus" name="paquetes" value="pVenus">
+    <label for="pVenus">PaqueteVenus</label><br>
+    <input type="radio" id="pSaturno" name="paquetes" value="pSaturno">
+    <label for="pSaturno">PaqueteSaturno</label><br><br>
+    <h4>Puedes elegir los paquetes la Decoracion</h4>
+    <input type="radio" id="dEstelar" name="paquetes" value="dEstelar">
+    <label for="dEstelar">DecoracionEstelar</label><br>
+    <input type="radio" id="dPlus" name="paquetes" value="pPlus">
+    <label for="dPlus">DecoracionPlus</label><br><br>
 </form>
 <a href="pastelero.html">
 <input type="button" value=" Hacer pedido"></a>
