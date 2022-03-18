@@ -1,0 +1,30 @@
+.color-text-one{
+    color:#2f2fd8ab;
+
+}
+.color-text-two{
+ color:rgba(128, 128, 128, 0.664);
+}
+.bg-header{
+ background-color:rgba(199, 199, 214, 0.239);
+
+
+}
+.bg-button{
+ background-color:#2f2fd8ab ;
+ color:white;
+ border-radius: 16px;
+ font-size: 16px;
+ width:70px;
+}
+.font-size{
+    font-size: 25px;
+
+}
+.text-center{
+    text-align: center;
+}
+.table-space{
+ border-collapse: separate;
+ border-spacing: 90px;
+}
