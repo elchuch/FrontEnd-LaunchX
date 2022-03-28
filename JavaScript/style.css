@@ -1,0 +1,15 @@
+.titulo{
+    color: coral;
+}
+.titulo:hover{
+    color: blue;
+}
+.text-center{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+.bg-body{
+ background: linear-gradient(#CDEF03,#F69854)
+}
