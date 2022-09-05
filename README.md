@@ -3,8 +3,8 @@ FrontEnd for LaunchX(Microsoft México)
 Curso de Desarrollo web por Innovacción Virtual.
 Redes:
 
-GitHub: @FernandaOchoa
+GitHub: <FernandaOchoa>
 
-Twitter: @imonsh
+Twitter: <imonsh>
 
-Instagram: @fherz8a
+Instagram: <fherz8a>
